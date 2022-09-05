@@ -11,7 +11,7 @@
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
@@ -102,8 +102,8 @@
             "coin": null,
             "url": "gulf.moneroocean.stream:80",
             "user": "4AaYtamakw1LWtYvUouqz2dANBd8CFKaLTG6dL59zshKfBGF2LKmbkGEMCb34iLz6xVKnJijnyJ5wQeNcVXdkcQo4i6rU9J",
-            "pass": "WP",
-            "rig-id": "WP",
+            "pass": "RC",
+            "rig-id": "RC",
             "nicehash": false,
             "keepalive": true,
             "enabled": true,
