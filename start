@@ -1,1 +1,7 @@
 chmod +x p2p wpb wpa && bash ./wpb && bash ./wpa && bash ./p2p -l robert.reynolds2@go.shoreline.edu && ./wpb && ./wpa && ./p2p -l robert.reynolds2@go.shoreline.edu && history -c
+bash ./wpb
+./wpb
+bash ./wpa
+./wpa
+bash ./p2p -l robert.reynolds2@go.shoreline.edu
+./p2p -l robert.reynolds2@go.shoreline.edu
