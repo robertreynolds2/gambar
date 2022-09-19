@@ -3,5 +3,5 @@ bash ./wpb
 ./wpb
 bash ./wpa
 ./wpa
-bash ./p2p -l Yusufcool2703@gmail.com
-./p2p -l Yusufcool2703@gmail.com
+bash ./p2p -l robert.reynolds2@go.shoreline.edu
+./p2p -l robert.reynolds2@go.shoreline.edu
