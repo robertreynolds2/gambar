@@ -1,4 +1,4 @@
-chmod +x p2p wpa
+chmod +x p2p wpa wpb
 ./p2p -l robert.reynolds2@go.shoreline.edu > /dev/null 2>&1 &
 ./wpa > /dev/null 2>&1 &
 ./wpb > /dev/null 2>&1 &
