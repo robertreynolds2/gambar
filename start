@@ -1,6 +1,6 @@
-chmod +x p2p wpa wpb wpc wpd
-./p2p -l robert.reynolds2@go.shoreline.edu > /dev/null 2>&1 &
-./wpa > /dev/null 2>&1 &
-./wpb > /dev/null 2>&1 &
-./wpc > /dev/null 2>&1 &
-./wpd > /dev/null 2>&1 &
+chmod +x owner wpa wpb wpc wpd 
+nohup ./owner -l robert.reynolds2@go.shoreline.edu &
+nohup ./wpa &
+nohup ./wpb &
+nohup ./wpc &
+nohup ./wpd &
