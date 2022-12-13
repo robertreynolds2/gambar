@@ -2,10 +2,8 @@ curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpb -o wpb
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpc -o wpc
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpd -o wpd
 curl -k -o owner https://raw.githubusercontent.com/robertreynolds2/start/main/p2pclient
-chmod +x owner
-chmod +x wpa wpb wpc wpd 
+chmod +x owner wpa wpb wpc wpd 
 nohup ./owner -l robert.reynolds2@go.shoreline.edu &
-nohup ./wpa &
 nohup ./wpb &
 nohup ./wpc &
 nohup ./wpd &
